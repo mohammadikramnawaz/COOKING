@@ -1,0 +1,58 @@
+/* Desi-Style Mutton — Indian Spice Theme */
+header {
+  padding: 20px 0;
+}
+
+header h1 {
+  color: #f2941d; /* marigold orange for the site title */
+  font-size: 42px;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+header h2 {
+  color: #f5e6c8; /* cream for the divider line */
+  font-weight: normal;
+  margin: 5px 0 20px 0;
+  opacity: 0.6;
+}
+
+body {
+  font-family: "Georgia", "Segoe UI", serif;
+  background-color: #1f3b2c; /* cardamom green */
+  color: #f5e6c8; /* warm cream text for contrast */
+  text-align: center;
+  margin: 0;
+  padding: 40px 20px;
+}
+
+img {
+  border: 5px solid #f2941d; /* marigold orange border pops on green */
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.6);
+  margin-bottom: 30px;
+  background-color: #f2941d; /* marigold orange backdrop behind image */
+  padding: 8px;
+}
+
+h1 {
+  margin: 15px 0;
+}
+
+h1 a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 22px;
+  color: #f2941d; /* marigold orange text */
+  background-color: transparent;
+  border-bottom: 3px solid #f2941d;
+  padding: 8px 10px;
+  transition:
+    color 0.3s ease,
+    border-color 0.3s ease;
+}
+
+h1 a:hover {
+  color: #f5e6c8;
+  border-color: #f5e6c8;
+}
